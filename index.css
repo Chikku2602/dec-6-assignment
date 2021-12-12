@@ -1,0 +1,52 @@
+input , select ,textarea{
+    display: block;
+    margin: 4px;
+}
+.inline{
+    display: inline;
+}
+h2{
+    text-align: center;  
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+}
+h4{
+    margin: 0.5em 4px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f0dbd3;
+}
+.form-container{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-right: 250px;
+    background-color: rgb(206, 248, 234);
+}
+input[type="submit"], input[type="reset"] {
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #331d1d;
+    margin-top: 0px;
+}
+
+input[type="submit"] {
+    background-color: #4bcaf1;
+}
+input[type="submit"]:hover {
+    background-color: #6996a3;
+}
+
+input[type="reset"] {
+    background: #FF4B5A;
+}
+
+input[type="reset"]:hover {
+    background: #fbb1b7;
+}
+.para{
+    color: #c51e2c;
+}
+
